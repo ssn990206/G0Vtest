@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes letterDraw {
+  to { stroke-dashoffset: 0;}
+}
+
+@media (min-width:851px){
+    .back{
+        background-image: url(./G0v暫_工作區域\ 1.svg);
+    }
+
+    .logo{
+        padding-top: 16vh;
+        width: 56vw;
+        padding-left: 22vw;
+    }
+
+    .summit{
+        width: 56vw;
+        padding-left: 22vw;
+    }
+}
+
+@media (max-width:850px){
+    .back{
+        background-image: url(./G0v背小-05.svg);
+    }
+
+    .logo{
+        width: 64vw;
+        padding-top: 35vh;
+        padding-left: 18vw;
+    }
+
+    .summit{
+        width: 64vw;
+        padding-left: 18vw;
+    }
+}
+
+#s{
+    stroke-dasharray: 340;
+    stroke-dashoffset: 340;
+    animation: letterDraw .5s linear forwards;
+}
+
+.dur3{
+    animation-duration: 3s;
+}
+
+.back{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}

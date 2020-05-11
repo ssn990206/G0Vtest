@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2560 1440">
+  <defs>
+    <pattern id="_6_dpi_10_" data-name="6 dpi 10%" width="48" height="48" patternUnits="userSpaceOnUse" viewBox="0 0 48 48">
+      <rect width="48" height="48" style="fill: none"/>
+      <g>
+        <circle cx="24" cy="48" r="1.2" style="fill: #231815"/>
+        <circle cx="48" cy="48" r="1.2" style="fill: #231815"/>
+        <circle cx="24" cy="24" r="1.2" style="fill: #231815"/>
+        <circle cx="48" cy="24" r="1.2" style="fill: #231815"/>
+        <circle cx="36" cy="36" r="1.2" style="fill: #231815"/>
+        <circle cx="12" cy="36" r="1.2" style="fill: #231815"/>
+        <circle cx="36" cy="12" r="1.2" style="fill: #231815"/>
+        <circle cx="12" cy="12" r="1.2" style="fill: #231815"/>
+      </g>
+      <g>
+        <circle cy="48" r="1.2" style="fill: #231815"/>
+        <circle cy="24" r="1.2" style="fill: #231815"/>
+      </g>
+      <g>
+        <circle cx="24" r="1.2" style="fill: #231815"/>
+        <circle cx="48" r="1.2" style="fill: #231815"/>
+      </g>
+      <circle r="1.2" style="fill: #231815"/>
+    </pattern>
+  </defs>
+  <title>G0v暫</title>
+  <g style="isolation: isolate">
+    <g id="圖層_1" data-name="圖層 1">
+      <rect width="2560" height="1440" style="mix-blend-mode: overlay;fill: url(#_6_dpi_10_)"/>
+    </g>
+    <g id="大紅">
+      <g style="mix-blend-mode: overlay">
+        <circle cx="369.85" cy="1663.32" r="554.85" style="fill: #ff1d25"/>
+      </g>
+    </g>
+    <g id="大黃">
+      <g style="mix-blend-mode: overlay">
+        <circle cx="1396.16" cy="-72.61" r="413.38" style="fill: #ffba25"/>
+      </g>
+    </g>
+    <g id="大藍">
+      <g style="mix-blend-mode: overlay">
+        <circle cx="2350.8" cy="1364.7" r="416.2" style="fill: #3fa9f5"/>
+      </g>
+    </g>
+  </g>
+</svg>
