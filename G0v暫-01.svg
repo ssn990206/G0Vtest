@@ -3,24 +3,24 @@
     <pattern id="_6_dpi_10_" data-name="6 dpi 10%" width="48" height="48" patternUnits="userSpaceOnUse" viewBox="0 0 48 48">
       <rect width="48" height="48" style="fill: none"/>
       <g>
-        <circle cx="24" cy="48" r="1.2" style="fill: #231815"/>
-        <circle cx="48" cy="48" r="1.2" style="fill: #231815"/>
-        <circle cx="24" cy="24" r="1.2" style="fill: #231815"/>
-        <circle cx="48" cy="24" r="1.2" style="fill: #231815"/>
-        <circle cx="36" cy="36" r="1.2" style="fill: #231815"/>
-        <circle cx="12" cy="36" r="1.2" style="fill: #231815"/>
-        <circle cx="36" cy="12" r="1.2" style="fill: #231815"/>
-        <circle cx="12" cy="12" r="1.2" style="fill: #231815"/>
+        <circle cx="24" cy="48" r="1.2" style="fill: #333"/>
+        <circle cx="48" cy="48" r="1.2" style="fill: #333"/>
+        <circle cx="24" cy="24" r="1.2" style="fill: #333"/>
+        <circle cx="48" cy="24" r="1.2" style="fill: #333"/>
+        <circle cx="36" cy="36" r="1.2" style="fill: #333"/>
+        <circle cx="12" cy="36" r="1.2" style="fill: #333"/>
+        <circle cx="36" cy="12" r="1.2" style="fill: #333"/>
+        <circle cx="12" cy="12" r="1.2" style="fill: #333"/>
       </g>
       <g>
-        <circle cy="48" r="1.2" style="fill: #231815"/>
-        <circle cy="24" r="1.2" style="fill: #231815"/>
+        <circle cy="48" r="1.2" style="fill: #333"/>
+        <circle cy="24" r="1.2" style="fill: #333"/>
       </g>
       <g>
-        <circle cx="24" r="1.2" style="fill: #231815"/>
-        <circle cx="48" r="1.2" style="fill: #231815"/>
+        <circle cx="24" r="1.2" style="fill: #333"/>
+        <circle cx="48" r="1.2" style="fill: #333"/>
       </g>
-      <circle r="1.2" style="fill: #231815"/>
+      <circle r="1.2" style="fill: #333"/>
     </pattern>
   </defs>
   <title>G0v暫</title>
