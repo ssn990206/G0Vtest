@@ -13,7 +13,7 @@
     }
 
     .logo{
-        padding-top: 16vh;
+        padding-top: 6vh;
         width: 56vw;
         padding-left: 22vw;
     }
@@ -21,6 +21,26 @@
     .summit{
         width: 56vw;
         padding-left: 22vw;
+    }
+
+    .dsbutDiv{
+        padding-top: 5vh;
+        padding-left: 2.5vw;
+    }
+
+    .dsbut{
+        width: 10vw;
+        font-size: 20px;
+    }
+
+    .backPush{
+        padding-left: 10vw;
+        padding-top: 10vh;
+    }
+
+    .designBack{
+        width: 80vw;
+        height: 80vh;
     }
 }
 
@@ -39,6 +59,29 @@
         width: 64vw;
         padding-left: 18vw;
     }
+
+    .dsbutDiv{
+        padding-top: 3vh;
+        padding-left: 2.5vw;
+    }
+
+    .dsbut{
+        width: 20vw;
+        font-size: 26px;
+    }
+    .backPush{
+        padding-left: 12.5vw;
+        padding-top: 5vh;
+    }
+
+    .designBack{
+        width: 75vw;
+        height: 90vh;
+    }
+}
+
+a{
+    text-decoration:none;
 }
 
 #s{
@@ -55,6 +98,31 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
+}
+
+.dsbut{
+    background-color: white;
+    color: #333;
+    font-weight: 800;
+    text-align:center;
+    opacity: 0.8;
+    border-color: #333;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.dsbut:hover{
+    opacity: 1;
+}
+
+.designBack{
+    background-color: white;
+    opacity: 0.7;
+    border-color: #333;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 20px;
 }
