@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 @keyframes letterDraw {
@@ -54,10 +55,8 @@
     .dsword {
         width: 40%;
         margin-left: 5vw;
-        text-align: center;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #333;
+        line-height: 24px;
+        text-align: justify;
     }
 }
 
@@ -67,7 +66,7 @@
     }
     .logo {
         width: 64vw;
-        padding-top: 35vh;
+        padding-top: 30vh;
         padding-left: 18vw;
     }
     .summit {
@@ -104,12 +103,9 @@
         padding-top: 8vh;
     }
     .dsword {
-        width: 40%;
-        margin-left: 5vw;
+        width: 70%;
         /* text-align: center; */
-        border-style: solid;
-        border-width: 1px;
-        border-color: #333;
+        text-align: justify;
     }
 }
 
