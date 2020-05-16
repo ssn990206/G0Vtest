@@ -100,17 +100,19 @@
     }
     .dscolor {
         width: 65vw;
-        padding-top: 8vh;
     }
     .dsword {
         width: 70%;
+        height: 50vh;
         /* text-align: center; */
         text-align: justify;
+        overflow:scroll;
     }
 }
 
 a {
     text-decoration: none;
+    color: #333;
 }
 
 #s {
