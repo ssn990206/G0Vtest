@@ -1,108 +1,133 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 @keyframes letterDraw {
-  to { stroke-dashoffset: 0;}
+    to {
+        stroke-dashoffset: 0;
+    }
 }
 
-@media (min-width:851px){
-    .back{
+@media (min-width:851px) {
+    .back {
         background-image: url(./G0v暫-01.svg);
     }
-
-    .logo{
+    .logo {
         padding-top: 6vh;
         width: 56vw;
         padding-left: 22vw;
     }
-
-    .summit{
+    .summit {
         width: 56vw;
         padding-left: 22vw;
     }
-
-    .dsbutDiv{
+    .dsbutDiv {
         padding-top: 5vh;
         padding-left: 2.5vw;
     }
-
-    .dsbutDivB{
+    .dsbutDivB {
         padding-top: 5vh;
     }
-
-    .dsbut{
+    .dsbut {
         width: 10vw;
         font-size: 20px;
     }
-
-    .backPush{
+    .backPush {
         padding-left: 10vw;
         padding-top: 10vh;
     }
-
-    .designBack{
+    .designBack {
         width: 80vw;
         height: 70vh;
     }
+    .box {
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dscolor {
+        width: 30vw;
+        padding-left: 3vw;
+    }
+    .dsword {
+        width: 40%;
+        margin-left: 5vw;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #333;
+    }
 }
 
-@media (max-width:850px){
-    .back{
+@media (max-width:850px) {
+    .back {
         background-image: url(./G0v暫-05.svg);
     }
-
-    .logo{
+    .logo {
         width: 64vw;
         padding-top: 35vh;
         padding-left: 18vw;
     }
-
-    .summit{
+    .summit {
         width: 64vw;
         padding-left: 18vw;
     }
-
-    .dsbutDiv{
+    .dsbutDiv {
         padding-top: 3vh;
         padding-left: 2.5vw;
     }
-
-    .dsbutDivB{
-        padding-top: 3vh;
+    .dsbutDivB {
+        padding-top: 1.5vh;
     }
-
-    .dsbut{
+    .dsbut {
         width: 30vw;
         font-size: 24px;
     }
-    .backPush{
+    .backPush {
         padding-left: 12.5vw;
         padding-top: 5vh;
     }
-
-    .designBack{
+    .designBack {
         width: 75vw;
         height: 85vh;
     }
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dscolor {
+        width: 65vw;
+        padding-top: 8vh;
+    }
+    .dsword {
+        width: 40%;
+        margin-left: 5vw;
+        /* text-align: center; */
+        border-style: solid;
+        border-width: 1px;
+        border-color: #333;
+    }
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
-#s{
+#s {
     stroke-dasharray: 340;
     stroke-dashoffset: 340;
     animation: letterDraw .5s linear forwards;
 }
 
-.dur3{
+.dur3 {
     animation-duration: 3s;
 }
 
-.back{
+.back {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -110,11 +135,11 @@ a{
     height: 100vh;
 }
 
-.dsbut{
+.dsbut {
     background-color: white;
     color: #333;
     font-weight: 800;
-    text-align:center;
+    text-align: center;
     opacity: 0.8;
     border-color: #333;
     border-width: 2px;
@@ -122,15 +147,62 @@ a{
     border-radius: 20px;
 }
 
-.dsbut:hover{
+.dsbut:hover {
     opacity: 1;
 }
 
-.designBack{
+.designBack {
     background-color: white;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     border-color: #333;
-    border-width: 4px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 20px;
+}
+
+.cls-6 {
+    animation: run 6s infinite;
+}
+
+.cls-7 {
+    animation: run 6s infinite;
+    animation-delay: 2s;
+}
+
+.cls-8 {
+    animation: run 6s infinite;
+    animation-delay: 4s;
+}
+
+@keyframes bounceUp {
+    from {
+        transform: translate3d(0, 0, 0)
+    }
+    to {
+        transform: translate3d(0, -55px, 0)
+    }
+}
+
+@keyframes bounceUp2 {
+    0% {
+        transform: translate3d(0, 0, 0)
+    }
+    50% {
+        transform: translate3d(0, -55px, 0)
+    }
+    100% {
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes run {
+    0% {
+        transform: translate3d(0, 0, 0)
+    }
+    33% {
+        transform: translate3d(340px, 0, 0)
+    }
+    100% {
+        transform: translate3d(340px, 0, 0)
+    }
 }

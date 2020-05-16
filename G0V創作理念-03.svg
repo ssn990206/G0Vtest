@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 38">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        mix-blend-mode: overlay;
+      }
+
+      .cls-3 {
+        fill: #3fa9f5;
+      }
+    </style>
+  </defs>
+  <title>G0V創作理念</title>
+  <g class="cls-1">
+    <g id="藍">
+      <g class="cls-2">
+        <path class="cls-3" d="M42.5,21.5C41.77,30.49,31.22,37,22,37S2.23,30.49,1.5,21.5C.67,11.31,10.85,1,22,1S43.33,11.31,42.5,21.5Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
