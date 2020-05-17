@@ -107,12 +107,14 @@
         /* text-align: center; */
         text-align: justify;
         overflow:scroll;
+        overflow-x: hidden;
+	    overflow-y: scroll;
     }
 }
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #3C3C3C;
 }
 
 #s {
@@ -135,11 +137,11 @@ a {
 
 .dsbut {
     background-color: white;
-    color: #333;
+    color: #3C3C3C;
     font-weight: 800;
     text-align: center;
     opacity: 0.8;
-    border-color: #333;
+    border-color: #3C3C3C;
     border-width: 2px;
     border-style: solid;
     border-radius: 20px;
@@ -152,7 +154,7 @@ a {
 .designBack {
     background-color: white;
     /* opacity: 0.7; */
-    border-color: #333;
+    border-color: #3C3C3C;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
@@ -204,3 +206,4 @@ a {
         transform: translate3d(340px, 0, 0)
     }
 }
+
